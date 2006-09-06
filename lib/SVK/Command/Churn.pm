@@ -1,8 +1,10 @@
 package SVK::Command::Churn;
 use base qw( SVK::Command );
+use SVK::Command::Log;
+use Chart::Strip;
 use Date::Parse;
 use IO::All;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub options {
     ('q|quiet'       => 'quiet',
@@ -121,11 +123,9 @@ sub committers_graph {
 
 1;
 
-__END__
-
 =head1 NAME
 
-  SVK::Command::Churn - Generate SVK Statistics graph.
+SVK::Command::Churn - Generate SVK Statistics graph.
 
 =head1 SYNTAX
 

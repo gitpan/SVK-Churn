@@ -1,15 +1,17 @@
-name: SVK-Churn
-version: 0.03
-abstract: Generate SVK Statistics graph
-author: Kang-min Liu <gugod@gugod.org>
-license: perl
-distribution_type: module
-build_requires:
+abstract: Generate SVK Statistics graph.
+author: Kang-min Liu <gugod@gugod.org>.
+build_requires: 
   Test::More: 0
-requires:
-  SVK: 0.3
-  Chart::Strip: 0
-no_index:
-  directory:
+distribution_type: module
+generated_by: Module::Install version 0.64
+license: perl
+name: SVK-Churn
+no_index: 
+  directory: 
     - inc
-generated_by: Module::Install version 0.36
+    - t
+requires: 
+  Chart::Strip: 0
+  IO::All: 0
+  SVK: 0.3
+version: 0.04
