@@ -1,3 +1,5 @@
+Changes
+examples/svk-churn
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -12,3 +14,5 @@ MANIFEST			This list of files
 META.yml
 README
 t/00.use.t
+t/pod-coverage.t
+t/pod.t
